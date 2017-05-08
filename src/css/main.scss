@@ -77,3 +77,13 @@
 		}
 	}
 }
+
+.content__labels {
+	@include mq($from: leftCol) {
+		position: absolute;
+		left: -164px;
+	}
+	@include mq($from: wide) {
+		left: -240px;
+	}
+}
